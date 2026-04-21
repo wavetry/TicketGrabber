@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TicketGrabber</string>
+    <string name="title_home">首页</string>
+    <string name="title_search">查询</string>
+    <string name="title_orders">订单</string>
+    <string name="title_grab">抢票</string>
+    <string name="title_settings">设置</string>
+    <string name="title_login">登录</string>
+    <string name="hint_username">用户名</string>
+    <string name="hint_password">密码</string>
+    <string name="btn_login">登录</string>
+    <string name="btn_register">注册</string>
+    <string name="btn_forgot_password">忘记密码</string>
+    <string name="hint_departure">出发地</string>
+    <string name="hint_destination">目的地</string>
+    <string name="hint_date">出发日期</string>
+    <string name="btn_search">查询</string>
+    <string name="btn_grab_ticket">抢票</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_confirm">确认</string>
+    <string name="msg_loading">加载中...</string>
+    <string name="msg_error">出错了，请重试</string>
+    <string name="msg_success">操作成功</string>
+    <string name="msg_no_data">暂无数据</string>
+    <string name="msg_network_error">网络连接失败</string>
+    <string name="msg_login_success">登录成功</string>
+    <string name="msg_login_failed">登录失败</string>
+    <string name="msg_grab_started">抢票任务已启动</string>
+    <string name="msg_grab_stopped">抢票任务已停止</string>
+    <string name="msg_order_success">下单成功</string>
+    <string name="msg_order_failed">下单失败</string>
+</resources>

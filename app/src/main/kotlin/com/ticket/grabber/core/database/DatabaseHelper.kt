@@ -13,6 +13,8 @@ import com.ticket.grabber.data.local.PaymentDao
 import com.ticket.grabber.data.local.TicketDatabase
 import com.ticket.grabber.data.local.Converters
 
+import android.content.Context
+
 /**
  * 数据库辅助类
  * 提供数据库操作的工具方法
@@ -22,9 +24,9 @@ object DatabaseHelper {
     /**
      * 创建数据库配置
      */
-    fun createDatabaseConfiguration(): DatabaseConfiguration {
+    fun createDatabaseConfiguration(context: Context): DatabaseConfiguration {
         return DatabaseConfiguration(
-            context = TODO("Provide context"),
+            context = context,
             name = "ticket_grabber.db",
             openHelperFactory = FrameworkSQLiteOpenHelperFactory(),
             foreignKeyConstraints = false,
